@@ -1,80 +1,80 @@
 [
 	{
 		"title":"When You're Gone",
-		"url": "/media/music/When You're Gone.mp3",
-		"cover": "/media/cover/When You're Gone.jpg",
+		"url": "/musicPlayer/media/music/When You're Gone.mp3",
+		"cover": "/musicPlayer/media/cover/When You're Gone.jpg",
 		"author": "Avril Lavigne",
 		"album": "When You're Gone",
 		"duration":"03:58"
 	},
 	{
 		"title":"Sincerely",
-		"url": "/media/music/Sincerely.mp3",
-		"cover": "/media/cover/Sincerely.jpg",
+		"url": "/musicPlayer/media/music/Sincerely.mp3",
+		"cover": "/musicPlayer/media/cover/Sincerely.jpg",
 		"author": "TRUE",
 		"album": "Sincerely",
 		"duration":"04:35"
 	},
 	{
 		"title":"说散就散",
-		"url": "/media/music/说散就散.mp3",
-		"cover": "/media/cover/说散就散.jpg",
+		"url": "/musicPlayer/media/music/说散就散.mp3",
+		"cover": "/musicPlayer/media/cover/说散就散.jpg",
 		"author": "袁娅维",
 		"album": "说散就散",
 		"duration":"04:02"
 	},
 	{
 		"title":"打上花火",
-		"url": "/media/music/打上花火.mp3",
-		"cover": "/media/cover/打上花火.jpg",
+		"url": "/musicPlayer/media/music/打上花火.mp3",
+		"cover": "/musicPlayer/media/cover/打上花火.jpg",
 		"author": "DAOKO/米津玄師",
 		"album": "打上花火",
 		"duration":"04:49"
 	},
 	{
 		"title":"四季",
-		"url": "/media/music/四季.mp3",
-		"cover": "/media/cover/四季.jpg",
+		"url": "/musicPlayer/media/music/四季.mp3",
+		"cover": "/musicPlayer/media/cover/四季.jpg",
 		"author": "陈奕迅",
 		"album": "四季",
 		"duration":"04:04"
 	},
 	{
 		"title":"致未来的我",
-		"url": "/media/music/致未来的我.mp3",
-		"cover": "/media/cover/致未来的我.jpg",
+		"url": "/musicPlayer/media/music/致未来的我.mp3",
+		"cover": "/musicPlayer/media/cover/致未来的我.jpg",
 		"author": "Mr.",
 		"album": "We R Mr.",
 		"duration":"04:18"
 	},
 	{
 		"title":"霸气情歌",
-		"url": "/media/music/霸气情歌.mp3",
-		"cover": "/media/cover/霸气情歌.jpg",
+		"url": "/musicPlayer/media/music/霸气情歌.mp3",
+		"cover": "/musicPlayer/media/cover/霸气情歌.jpg",
 		"author": "陈柏宇",
 		"album": "I",
 		"duration":"03:47"
 	},
 	{
 		"title":"樱花树下",
-		"url": "/media/music/樱花树下.mp3",
-		"cover": "/media/cover/樱花树下.jpg",
+		"url": "/musicPlayer/media/music/樱花树下.mp3",
+		"cover": "/musicPlayer/media/cover/樱花树下.jpg",
 		"author": "张敬轩",
 		"album": "P.S. I Love You 新歌+精选",
 		"duration":"04:12"
 	},
 	{
 		"title":"我好想你",
-		"url": "/media/music/我好想你.mp3",
-		"cover": "/media/cover/我好想你.jpg",
+		"url": "/musicPlayer/media/music/我好想你.mp3",
+		"cover": "/musicPlayer/media/cover/我好想你.jpg",
 		"author": "苏打绿",
 		"album": "秋:故事",
 		"duration":"05:24"
 	},
 	{
 		"title":"说了再见",
-		"url": "/media/music/说了再见.mp3",
-		"cover": "/media/cover/说了再见.jpg",
+		"url": "/musicPlayer/media/music/说了再见.mp3",
+		"cover": "/musicPlayer/media/cover/说了再见.jpg",
 		"author": "周杰伦",
 		"album": "跨时代",
 		"duration":"04:42"
