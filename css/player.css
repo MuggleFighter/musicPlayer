@@ -1,0 +1,174 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font: 14px/1.5 Circular, Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.cover-bg {
+    height: 100%;
+    background: url("/media/cover/Sincerely.jpg") center center no-repeat;
+    background-size: cover;
+    filter: blur(30px);
+    overflow: hidden;
+}
+
+.player {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 960px;
+    opacity: .8;
+    box-shadow: 0 0 16px 4px rgba(0,0,0,0.6)
+}
+
+.player:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.player .panel {
+    position: relative;
+    margin-right: 50%;
+    height: 480px;
+    color: #fff;
+    background: #2f449d;
+}
+
+.player .panel .detail {
+    padding: 48px 36px 0 36px;
+    line-height: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.player .panel .title {
+    font-size: 26px;
+}
+
+.player .panel p {
+    font-size: 20px;
+}
+
+.player .panel .playing-msg {
+    font-size: 16px;
+}
+
+.player .panel .playing-msg .time {
+    float: right;
+}
+
+.player .panel .controls {
+    position: absolute;
+    display: flex;
+    height: 128px;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 0 36px;
+    background: #3b55b3;
+}
+
+.player .controls .iconfont {
+    font-size: 20px;
+    color: #fff;
+}
+
+.player .controls .iconfont.active {
+    color: #eb0060;
+}
+
+.player .cover {
+    float: right;
+    width: 50%;
+    height: 480px
+}
+
+.player .cover>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player .bar {
+    height: 6px;
+    cursor: pointer;
+}
+
+.player .progress-bar {
+    width: 0;
+    height: 100%;
+    background: #eb0060;
+    /*	transition: all .1s;设置此值会出错*/
+}
+
+.player .music-list {
+    line-height: 42px;
+    height: 336px;
+    overflow: auto;
+    /*设为scroll的话，下面也会出现滚动条，影响美观*/
+}
+
+.player .music-list .music {
+    display: flex;
+    padding: 0 36px;
+    border-bottom: solid 1px #eaeaea;
+    cursor: pointer;
+    background: #fff;
+}
+
+.player .music-list .music.active {
+    color: #3b55b3;
+    font-weight: bold;
+}
+
+.player .music-list .music:hover {
+    background: #3b55b3;
+    color: #fff;
+}
+
+.player .music-list .music.active:hover {
+    background: #fff;
+    color: #3b55b3;
+}
+
+.player .music span {
+    flex-basis: 33.3%
+}
+
+.player .music .author {
+    text-align: center;
+}
+
+.player .music .name {
+    text-align: left;
+}
+
+.player .music .during-time {
+    text-align: right;
+}
+
+.player .music-list::-webkit-scrollbar {
+    width: 8px;
+    background: #ccc;
+}
+
+.player .music-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(59, 85, 179, 0.8);
+}
