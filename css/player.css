@@ -16,7 +16,7 @@ body {
 
 .cover-bg {
     height: 100%;
-    background: url("/media/cover/Sincerely.jpg") center center no-repeat;
+    background: url("/musicPlayer/media/cover/Sincerely.jpg") center center no-repeat;
     background-size: cover;
     filter: blur(30px);
     overflow: hidden;
