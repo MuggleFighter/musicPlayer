@@ -10,7 +10,7 @@ function $$(selector) {
 
 //request data
 var xhr = new XMLHttpRequest()
-xhr.open('GET', '/json/songlist.json', true)
+xhr.open('GET', '/musicPlayer/json/songlist.json', true)
 xhr.send()
 xhr.addEventListener('load', function() {
     if ((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304) {
